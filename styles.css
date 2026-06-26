@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f1e8;
+    margin: 20px;
+}
+
+h1 {
+    color: #8b4513;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 30px;
+    color: #556b2f;
+}
+
+p {
+    color: #5c4033;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 60%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: #fffaf0;
+}
+
+th {
+    background-color: #8b4513;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid #444;
+}
+
+tr:nth-child(even) {
+    background-color: #f0e6d6;
+}
+
+tr:hover {
+    background-color: #d2b48c;
+}
+
+.importancia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.diferencias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* FORMULARIO */
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #556B2F;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* GALERÍA */
+
+.galeria {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #FFF8EE;
+    border-radius: 20px;
+    border: 3px solid #D2B48C;
+    box-shadow: 0 8px 20px rgba(92, 64, 51, 0.15);
+}
+
+.galeria h2 {
+    color: #8B4513;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+
+/* IMAGEN */
+
+.imagen-Principal {
+    width: 100%;
+    max-width: 650px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 5px solid #8B4513;
+    box-shadow: 0 5px 15px rgba(92, 64, 51, 0.25);
+    transition: transform 0.3s ease;
+}
+
+.imagen-Principal:hover {
+    transform: scale(1.02);
+}
+
+
+/* CONTROLES */
+
+.controles {
+    margin-top: 25px;
+}
+
+
+/* BOTONES */
+
+button {
+    background-color: #8B4513;
+    color: #FFFAF0;
+    border: none;
+    padding: 12px 28px;
+    margin: 0 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #556B2F;
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+
+/* MENÚ */
+
+nav {
+    background-color: #8B4513;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #FFFAF0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #F0E6D6;
+}
+
+
+/* FONDO GENERAL */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F1E8;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* CAJAS GENERALES */
+
+div {
+    transition: 0.3s;
+}
+
+
+/* BANNER */
+
+.banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    border: 5px solid #8B4513;
+}
+
+
+/* ENCABEZADO */
+
+.encabezado-principal {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.logo {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+.encabezado-principal h1 {
+    margin: 0;
+}
